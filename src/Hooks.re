@@ -3,7 +3,7 @@
  */
 
 [@bs.get] external location: Dom.window => Dom.location = "location";
-// let location = Dom.window => Dom.location;
+
 [@bs.get] external pathname: Dom.location => string = "pathname";
 [@bs.send]
 /* actually the cb is Dom.event => unit, but let's restrict the access for now */
