@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
+    "start": "BS_WATCH_CLEAR=true bsb -make-world -w",
     "clean": "bsb -clean-world",
     "test": "bsb -make-world && jest",
     "webpack": "webpack -w",
@@ -28,11 +28,11 @@
   "dependencies": {},
   "devDependencies": {
     "@anuragsoni/routes": "^0.8.0",
-    "bs-platform": "^7.3.2",
+    "bs-platform": "^8.0.0-dev.1",
     "html-webpack-plugin": "^4.3.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
-    "reason-react": "^0.8.0",
+    "reason-react": "^0.9.0-dev.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0"
@@ -41,7 +41,7 @@
     "bs-platform": "^7.3.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "reason-react": "^0.8.0"
+    "reason-react": "^0.9.0-dev.1"
   },
   "files": [
     "bsconfig.json",

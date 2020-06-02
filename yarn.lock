@@ -575,10 +575,10 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
-bs-platform@^7.3.2:
-  version "7.3.2"
-  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-7.3.2.tgz#301f5c9b4e8cf5713cb60ca22e145e56e793affe"
-  integrity sha512-seJL5g4anK9la4erv+B2o2sMHQCxDF6OCRl9en3hbaUos/S3JsusQ0sPp4ORsbx5eXfHLYBwPljwKXlgpXtsgQ==
+bs-platform@^8.0.0-dev.1:
+  version "8.0.0-dev.1"
+  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-8.0.0-dev.1.tgz#8c4a6c1b3d62c8afa6b7675a3222162b1b88e409"
+  integrity sha512-AMwhxGf9VKSlzM9FeV++ex6kmrn48RHvKOd6lQbt2QD3He1xuxuYZ17VhJjzYDipGzeVLbT77Oku/EeFba0afg==
 
 buffer-from@^1.0.0:
   version "1.1.1"
@@ -3154,10 +3154,10 @@ readdirp@^2.2.1:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
-reason-react@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/reason-react/-/reason-react-0.8.0.tgz#a55143f95a872596c92b54595e7904c03ee7c9db"
-  integrity sha512-97AfK3eCF6vfP8rnbq3k6GgXsZt//OiPMINTUk5luJ8W0Wt/JaYsDG6eWKP8Zx3gPpxSU1EPjB1pUm6o6fBnFA==
+reason-react@^0.9.0-dev.1:
+  version "0.9.0-dev.1"
+  resolved "https://registry.yarnpkg.com/reason-react/-/reason-react-0.9.0-dev.1.tgz#c9142431f02cb1d7cd56509ae94b1786abfd1e5b"
+  integrity sha512-HWyAfGfWNKaXZdwnuhSHd8RuQAZnGos7qUvTQsCuZS+xy0ZsqH6VDQGa3EfMxZJIhaMh+64W6YyHL1NATSBl4g==
 
 regex-not@^1.0.0, regex-not@^1.0.2:
   version "1.0.2"

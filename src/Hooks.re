@@ -3,6 +3,7 @@
  */
 
 [@bs.get] external location: Dom.window => Dom.location = "location";
+// let location = Dom.window => Dom.location;
 [@bs.get] external pathname: Dom.location => string = "pathname";
 [@bs.send]
 /* actually the cb is Dom.event => unit, but let's restrict the access for now */
@@ -25,7 +26,7 @@ let watchUrl = callback =>
   switch ([%external window]) {
   | None => ((.) => ())
   | Some((window: Dom.window)) =>
-    let watcherID = ((.) => callback(. url()));
+    let watcherID:watcherID = ((.) => callback(. url()));
     addEventListener(window, "popstate", watcherID);
     watcherID;
   };
